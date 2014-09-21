@@ -1,7 +1,11 @@
 module Main where
 
-import calculo(peso, horas, bicicleta, corrida, tocarBateria)
+
+import CalculoCalorias(peso, horas, calcularCalorias)
+import Atividades
+
 
 main = do
-	putStrLn "Menu"
 	
+	putStrLn "\n \n \n \n Teste Eletronico para Calculo de Calorias \n"
+	putStrLn "\t \t Menu \n \n"

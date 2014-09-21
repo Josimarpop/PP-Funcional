@@ -1,9 +1,6 @@
-module Calculo where
+module CalculoCalorias (peso, horas, calcularCalorias) where
 
--- bicicleta :: Float -> Float
-bicicleta = 7 :: Float
-corrida = 7 :: Float
-tocarBateria = 4 :: Float
+import Atividades
 
 peso :: Float -> Float
 peso kilos = kilos
