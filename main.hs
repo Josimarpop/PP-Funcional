@@ -12,4 +12,6 @@ main = do
 	contents <- readFile "ListaDeAtividades.txt"
 	putStr contents
 
-	
+
+	putStrLn "Digite seu peso: "
+	putStrLn "Digite a quantidade de minutos da atividade praticada: "
