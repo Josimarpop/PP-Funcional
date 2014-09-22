@@ -3,13 +3,15 @@ module Main where
 import System.IO
 import CalculoCalorias(peso, horas, calcularCalorias)
 import Atividades
+import System.Process
 
 main = do
 	
-	putStrLn "\n \n \n \n Teste Eletronico para Calculo de Calorias \n"
-	putStrLn "\t Menu \n \n"
+	putStrLn "*************************************************"
+	putStrLn "\tTeste Eletronico para Calculo de Calorias \n"
 	contents <- readFile "ListaDeAtividades.txt"
 	putStr contents
+	putStrLn "*************************************************"
 
 	putStrLn "Escolha uma atividade:"
 	numAtividade <- getLine
@@ -26,3 +28,6 @@ main = do
 		"4" -> print ("calcularCalorias corrida " ++ peso ++ " " ++ tempo)
 		"5" -> print ("calcularCalorias arteMarcial " ++ peso ++ " " ++ tempo)
 		"6" -> print ("calcularCalorias dancar " ++ peso ++ " " ++ tempo)
+
+
+	
