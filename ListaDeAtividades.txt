@@ -1,5 +1,5 @@
 Lista de Atividades:
-Andar de Bicicleta(bicicleta)			Cooper(corrida)
-Tocar Bateria(tocarBateria)			Luta(arteMarcial)
-Programar(programar)				Dançar(dancar)
+1 - Andar de Bicicleta			4 - Cooper
+2 - Tocar Bateria				5 - Luta
+3 - Programar				6 - Dança
 
